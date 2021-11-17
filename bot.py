@@ -121,7 +121,7 @@ elif toggle == 'followers':
     print((crayons.yellow('Please wait 90 seconds for the bot to register your video.')))
     follower_search_button = browser.find_element(By.XPATH, '//*[@id="sid"]/div/form/div/div/button').click()
     time.sleep(90)
-    follower_add_button = browser.find_element(By.XPATH, '').click()
+    follower_add_button = browser.find_element(By.XPATH, '//*[@id="c2VuZF9mb2xsb3dlcnNfdGlrdG9r"]/div[1]/div/form/button').click()
     print(crayons.green('ADDED: 25 Followers'))
     print(crayons.green('Automation Complete. Please restart the tool.'))
     sys.exit()
